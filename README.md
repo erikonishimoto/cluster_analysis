@@ -1,8 +1,7 @@
-= cluster_analysis
-
 2012/08/24 Eriko Nishimoto (eriko _at_ gfd-dennou.org )
 
 == Summary
+
 This program performs Cluster Analysis with Ward's method, 
 which is one of the hierarchical clustering methods and 
 defined based on the notion of square error.
@@ -15,13 +14,16 @@ of this step. Initially, each cluster contains only one object;
 hence, the value of the sum-of-square error at the beginning is zero.
 
 == Runtime Dependency
+
 * Ruby (>=1.8)
 * NArray
 
 == How to Use
+
   load this file in a ruby program
 
 == Functions
+
 --- cluster_analysis( data, dim, nclass, renumber )
 
     performing cluster analysis with Ward's method
